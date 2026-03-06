@@ -1,0 +1,29 @@
+{
+  "name": "claude-watcher",
+  "version": "1.0.0",
+  "description": "Understand your Claude Code costs and usage patterns. Data never leaves your machine.",
+  "bin": {
+    "claude-watcher": "bin/claude-watcher.js"
+  },
+  "files": [
+    "bin/",
+    "analyze.py",
+    "app.py"
+  ],
+  "engines": {
+    "node": ">=14"
+  },
+  "keywords": [
+    "claude",
+    "claude-code",
+    "anthropic",
+    "cost",
+    "usage",
+    "analytics"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YOUR_USERNAME/claude-watcher.git"
+  }
+}
